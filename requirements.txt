@@ -1,4 +1,4 @@
+openai
+inspect-ai
 inspect-evals[healthbench]
 inspect-evals[medqa]
-openai
-pip install --upgrade inspect-ai
