@@ -7,7 +7,7 @@ from inspect_evals.healthbench  import healthbench
 
 dotenv.load_dotenv()
 
-modelname = "deepseek-r1-distill-qwen-1.5b" # CHANGE THIS TO YOUR MODEL NAME
+modelname = "medgemma-4b-it" # CHANGE THIS TO YOUR MODEL NAME
 
 results = eval(
     tasks=[

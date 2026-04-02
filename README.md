@@ -2,6 +2,8 @@
 
 If you are considering hosting a LLM locally on your PC, you might want to choose the best model for your specific needs. In this quick tutorial we'll see how to do this without any subscription anywhere.
 
+Demo: https://youtu.be/5ef34XLSfnw
+
 ### Requirements:
 
 - LM Studio [link](https://lmstudio.ai/download)
@@ -26,7 +28,7 @@ This server will be accessible thorugh port 1234, and has OpenAI, and Anthropic 
 
 After following these steps you should see something like this:
 
-![alt text](images\LMStudio_Server.png)
+![alt text](images/LMStudio_Server.png)
 
 Note: in LM Studio you might want to set the context length to be the max allowed per model, otherwise benchmarks that involve open questions will fail to be answered (HealthBench)
 
@@ -44,10 +46,12 @@ In this case we are interested in healthcare applications, so we are choosing [M
 
     python test.py
 
+    Note: You might want to take a look at the task manager while the tests run.
+
 2. In root of this repo execute the following to see logs in a UI on http://localhost:7575/
 
     inspect view
 
 3. go to http://localhost:7575/ and see results:
 
-    ![alt text](images\LMStudio_Server.png)
+    ![alt text](images/Logs.png)
